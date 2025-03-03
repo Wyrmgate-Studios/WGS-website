@@ -1,9 +1,10 @@
-#Wyrmgate Studios Website
+<h1>Wyrmgate Studios Website</h1><br>
 
 Wyrmgate Studios Website is the official web presence for Wyrmgate Studios, a game development company. Built with a standard web stack including HTML, CSS, JavaScript, PHP, AJAX, and MySQL,  It's designed to provide an engaging and interactive experience for visitors, showcasing the company's portfolio and allowing users to easily get in touch. Whether you're exploring our games or learning more about the studio, this website serves as the central hub for all things Wyrmgate Studios.Check out the code or suggest ideas## License
 
-[GNU GPLv2](https://choosealicense.com/licenses/gpl-2.0/)
-##Wyrmgate Studios Website Roadmap
+[GNU GPLv2](https://choosealicense.com/licenses/gpl-2.0/)<br>
+
+<h4>Wyrmgate Studios Website Roadmap</h4>
 
 Phase 1: Initial Launch
 
