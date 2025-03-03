@@ -29,37 +29,24 @@
             <img src="Assets/redditlogo.png" alt="Reddit Community" id="redditlogo">
     </div>
 </nav>
-
-    <div class="game1">
-        <div class="doomscroller">
-            <img src="Assets/Doomscroller-logo.jpg" alt="Game 1 Thumbnail" id="doomscrollerimg">
-            <h3>Doomscroller</h3>
-            <p>Immersive RPG with player-driven choices.</p>
-        </div>
-
-        <div class="project-item">
-            <img src="game2-thumbnail.jpg" alt="Game 2 Thumbnail">
-            <h3>Project Two</h3>
-            <p>Immersive RPG with player-driven choices.</p>
-        </div>
-        <div class="project-item">
-            <img src="game3-thumbnail.jpg" alt="Game 3 Thumbnail">
-            <h3>Project Three</h3>
-            <p>Exciting multiplayer battles in a dystopian future.</p>
-        </div>
-    </div>
-</section>
-
-<section id="contact">
+<section>
     <h2>Contact Us</h2>
-    <p>Got a question or want to collaborate? We'd love to hear from you!</p>
-    <p>Email: <a href="mailto:contact@wyrmgatestudio.com">contact@wyrmgatestudio.com</a></p>
-    <p>Follow us on social media for updates:</p>
-    <p>
-        <a href="https://twitter.com/WyrmgateStudio" target="_blank">Twitter</a> |
-        <a href="https://instagram.com/WyrmgateStudio" target="_blank">Instagram</a>
-    </p>
+    <form action="mailto:contact@wyrmgatestudios.com" method="post" enctype="text/plain">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Required" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Required" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" placeholder="Required" required></textarea>
+        
+        <button type="submit">Send</button>
+    </form>
 </section>
+
+
+
 
 <footer>
     <p>&copy; 2025 Wyrmgate Studio. All rights reserved.</p>
