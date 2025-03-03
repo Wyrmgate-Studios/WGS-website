@@ -1,4 +1,4 @@
-<a href="https://ibb.co/DDsVQkP4"><img src="https://i.ibb.co/qMXyp9LB/IMG-20250227-WA0004.jpg" alt="IMG-20250227-WA0004" width="280"></a>
+<a href="https://ibb.co/DDsVQkP4"><img src="https://i.ibb.co/qMXyp9LB/IMG-20250227-WA0004.jpg" alt="IMG-20250227-WA0004" width="280" position="center"></a>
 
 <h1>Wyrmgate Studios Website</h1><br>
 
