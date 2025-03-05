@@ -10,31 +10,58 @@
             padding: 10px;
             height: 50px;
             display: flex;
-            justify-content: center; /* Center horizontally */
             align-items: center; /* Center vertically */
-            position: relative; /* Ensure the image stays on the left */
+            justify-content: space-between; /* Distribute space between items */
+            position: relative;
         }
         
         nav img {
-            position: absolute;
-            left: 10px; /* Adjust as needed */
             height: 100%; /* Ensure the image fits the nav bar height */
+            margin-right: 10px; /* Add some space between the logo and the login text */
         }
         
-        nav .nav-links {
+        .login {
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 0.9em; /* Adjust the font size as needed */
+            margin-left: 10px; /* Adjust the spacing as needed */
+        }
+        
+        .nav-links {
             display: flex;
             justify-content: center; /* Center horizontally */
             align-items: center; /* Center vertically */
             width: 100%; /* Ensure the links take the full width */
+            margin-left: auto; /* Push the links to the right */
         }
         
+        #redditlogo {
+            height: 30px; /* Adjust the size as needed */
+        }
+        #githublogo {
+            height: 30px; /* Adjust the size as needed */
+        }
+        .socials {
+            display: flex;
+            flex-direction: row; /* Arrange child elements in a row */
+            align-items: center; /* Align child elements to the center vertically */
+        }
+        
+        .socials a {
+            display: inline-block; /* Make each link take up the full width */
+        }
+        
+        .socials img {
+            height: 30px; /* Adjust the size as needed */
+        }
+
         nav a {
             color: #fff;
             text-decoration: none;
             margin: 0 15px;
             font-size: 18px;
         }
-        
+
         nav a:hover {
             color: #f4f4f4;
         }
@@ -44,11 +71,10 @@
         footer {
             background-color: #333;
             color: #fff;
-            padding: 10px;
             text-align: center;
-            position: fixed;
             width: 100%;
-            bottom: 0;
+            position: relative;
+            top: 100%;
         }
         .project-list {
             display: flex;
@@ -87,14 +113,7 @@
             margin: 0 auto;
             float: left;
         }
-        .socials {
-            position: absolute;
-            right: 10px; /* Adjust as needed */
-            top: 50%;
-            transform: translateY(-50%);
-            display: flex;
-            align-items: center;
-        }
+
         form {
             display: flex;
             flex-direction: column;
@@ -105,12 +124,12 @@
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
         }
-        
+
         form label {
             margin-bottom: 5px;
             color: #f4f4f4;
         }
-        
+
         form input, form textarea {
             margin-bottom: 15px;
             padding: 10px;
